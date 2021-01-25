@@ -1,0 +1,47 @@
+[
+  {
+    "Id": 1,
+    "Nazwa": "Fisiek",
+    "Plec": "Samiec",
+    "Wiek": "5",
+    "Opiekun": "Rysiek",
+    "StanZdrowia": "dobry",
+    "StanAdopcji": "Poszukuje"
+  },
+  {
+    "Id": 2,
+    "Nazwa": "Blancik",
+    "Plec": "Samiec",
+    "Wiek": "1",
+    "Opiekun": "Adrian",
+    "StanZdrowia": "fatalny",
+    "StanAdopcji": "Adoptowany"
+  },
+  {
+    "Id": 3,
+    "Nazwa": "Rudy",
+    "Plec": "Samiec",
+    "Wiek": "3",
+    "Opiekun": "Mati",
+    "StanZdrowia": "super",
+    "StanAdopcji": "Adoptowany"
+  },
+  {
+    "Id": 4,
+    "Nazwa": "Blancik",
+    "Plec": "Samiec",
+    "Wiek": "1",
+    "Opiekun": "Adrian",
+    "StanZdrowia": "znakomity",
+    "StanAdopcji": "Adoptowany"
+  },
+  {
+    "Id": 5,
+    "Nazwa": "Blancik",
+    "Plec": "Samiec",
+    "Wiek": "1",
+    "Opiekun": "Adrian",
+    "StanZdrowia": "znakomity",
+    "StanAdopcji": "Adoptowany"
+  }
+]

@@ -2,10 +2,10 @@ export interface Iproperty{
   Id: number;
   CzyAdoptowany: number;
   Nazwa: string;
-  Pleć: string;
+  Plec: string;
   Wiek: string;
   Opiekun?: string;
-  Stan_zdrowia?: string;
-  Stan_adopcji?: string;
+  StanZdrowia?: string;
+  StanAdopcji?: string;
   Opis?: string;
 }

@@ -4,7 +4,7 @@ export class Property implements Iproperty {
   Id: number;
   CzyAdoptowany: number;
   Nazwa: string;
-  Pleć: string;
+  Plec: string;
   Wiek: string;
   Opiekun?: string;
   StanZdrowia?: string;

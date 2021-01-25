@@ -14,13 +14,15 @@ main{
 .cards{
   grid-column: 2 / span 12;
   display: grid;
-  grid-template-columns:repeat(12, minmax(auto,90px));
+  grid-template-columns:repeat(12, minmax(auto, 90px));
   grid-gap: 40px;
 }
 
 .card{
-  box-shadow: 1px 1px 15px black;
+  width:350px;
+  border: 2px solid #34495E;
   border-radius: 9px;
+  padding: 15px;
   grid-column-end: span 4;
   display: flex;
   flex-direction: column;
