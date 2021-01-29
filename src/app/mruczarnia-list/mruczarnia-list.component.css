@@ -1,7 +1,48 @@
+.lista{
+  display: flex;
+  flex-direction: column;
+}
+
 main{
   display: grid;
   grid-template-columns: 1fr repeat(12, minmax(auto,90px)) 1fr;
   padding: 60px 0;
+}
+
+.butn{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+
+.addcatbtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width:200px;
+  height:50px;
+  border-radius: 5px;
+  background-color:#34495e;
+}
+
+.addcat{
+  display: flex;
+  font-size: 19px;
+  color:#fff;
+}
+
+
+
+.addcat i{
+  font-size: 22px;
+  color: white;
+}
+
+.cat-text{
+  font-size: 19px;
+  color:#fff;
 }
 
 .text--medium{

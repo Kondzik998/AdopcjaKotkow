@@ -1,9 +1,23 @@
-<main>
-<section class="cards">
+<div class="lista">
+  <div class="butn">
+    <a href="/dodajkota" class="addcatbtn">
+      <div class="addcat">
+        <i class="fas fa-plus"></i>
+      </div>
+        <div class="cat-text">
+          Dodaj kota
+        </div>
 
-<div *ngFor="let property of Properties" class="card">
-  <app-mruczarnia-card [property] = "property"></app-mruczarnia-card>
+    </a>
+  </div>
+  <main>
+    <section class="cards">
+
+      <div *ngFor="let property of Properties" class="card">
+        <app-mruczarnia-card [property]="property"></app-mruczarnia-card>
+      </div>
+
+    </section>
+  </main>
+
 </div>
-
-</section>
-</main>
